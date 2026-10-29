@@ -1,0 +1,13 @@
+.coffee-demo__eyebrow { color: var(--color-coffee); font-size: 0.85rem; margin-bottom: 0.5rem; }
+.coffee-demo__notice { padding: 1rem; background: #f5ede4; border: 1px solid var(--color-latte); border-radius: 0.75rem; margin-bottom: 1.25rem; }
+.coffee-demo__notice p + p { margin-top: 0.75rem; }
+.coffee-demo__notice a { color: #5c3522; text-underline-offset: 3px; }
+.coffee-demo__turn { margin-bottom: 1.5rem; }
+.coffee-demo__examples { border-top: 1px solid var(--color-latte); padding-top: 1.25rem; margin-top: 1.5rem; }
+.coffee-demo__examples h2 { font-size: 1.2rem; margin-bottom: 0.5rem; }
+.coffee-demo__buttons { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; }
+.coffee-demo__buttons button { white-space: normal; text-align: left; max-width: 100%; }
+.coffee-demo__announcement { margin-top: 1rem; font-weight: 600; }
+.coffee-demo__footer { margin-top: 1rem; font-size: 0.85rem; }
+button:focus-visible, a:focus-visible, summary:focus-visible { outline: 3px solid #6f452e; outline-offset: 4px; }
+@media (max-width: 480px) { .coffee-page { margin: 1rem auto; } .coffee-demo__buttons { flex-direction: column; } .coffee-demo__buttons button { width: 100%; } }
