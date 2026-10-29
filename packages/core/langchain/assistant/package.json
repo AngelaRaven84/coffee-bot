@@ -1,0 +1,14 @@
+{
+	"name": "@coffee-bot/assistant",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"main": "index.js",
+	"dependencies": {
+		"@coffee-bot/llm": "*",
+		"@coffee-bot/prompts": "*",
+		"@coffee-bot/tools": "*",
+		"@langchain/core": "^1.2.17",
+		"zod": "^4.6.6"
+	}
+}

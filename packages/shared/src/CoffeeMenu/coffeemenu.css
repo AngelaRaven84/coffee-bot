@@ -1,0 +1,56 @@
+.coffee-menu {
+	margin-bottom: 1.5rem;
+	padding: 1.25rem;
+	background-color: #f5ede4;
+	border: 1px solid var(--color-latte);
+	border-radius: 1rem;
+}
+
+.coffee-menu__toggle {
+	color: var(--color-coffee);
+	font-size: 1.125rem;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.coffee-menu__toggle:focus-visible {
+	outline: 3px solid var(--color-coffee);
+	outline-offset: 4px;
+	border-radius: 0.25rem;
+}
+
+.coffee-menu[open] .coffee-menu__list {
+	margin-top: 1rem;
+}
+
+.coffee-menu__list {
+	list-style: none;
+}
+
+.coffee-menu__item + .coffee-menu__item {
+	margin-top: 1rem;
+	padding-top: 1rem;
+	border-top: 1px solid var(--color-latte);
+}
+
+.coffee-menu__heading {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+	gap: 0.25rem 1rem;
+}
+
+.coffee-menu__heading h3 {
+	font-size: 1rem;
+}
+
+.coffee-menu__heading span {
+	font-weight: 600;
+	white-space: nowrap;
+}
+
+.coffee-menu__item p {
+	margin-top: 0.25rem;
+	font-size: 0.9375rem;
+}

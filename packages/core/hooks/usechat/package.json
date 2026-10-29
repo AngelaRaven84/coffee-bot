@@ -1,0 +1,15 @@
+{
+	"name": "@coffee-bot/usechat",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"main": "index.js",
+	"dependencies": {
+		"@coffee-bot/assistant": "*",
+		"@langchain/core": "^1.2.17",
+		"@coffee-bot/api": "*"
+	},
+	"peerDependencies": {
+		"react": "^19.0.0"
+	}
+}

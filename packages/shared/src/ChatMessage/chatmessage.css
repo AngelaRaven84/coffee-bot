@@ -1,0 +1,26 @@
+.chat-message {
+	width: fit-content;
+	max-width: 90%;
+	margin-bottom: 1rem;
+	padding: 0.875rem 1rem;
+	border-radius: 1rem;
+	white-space: pre-wrap;
+	overflow-wrap: anywhere;
+}
+
+.chat-message__author {
+	display: block;
+	margin-bottom: 0.25rem;
+	font-size: 0.875rem;
+}
+
+.chat-message--assistant {
+	background-color: #f5ede4;
+	border: 1px solid var(--color-latte);
+}
+
+.chat-message--user {
+	margin-left: auto;
+	color: var(--color-cream);
+	background-color: var(--color-coffee);
+}

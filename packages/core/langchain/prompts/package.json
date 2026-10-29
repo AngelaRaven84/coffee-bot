@@ -1,0 +1,10 @@
+{
+	"name": "@coffee-bot/prompts",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"main": "index.js",
+	"dependencies": {
+		"@langchain/core": "^1.2.17"
+	}
+}

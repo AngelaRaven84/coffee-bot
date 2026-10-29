@@ -1,0 +1,12 @@
+{
+	"name": "@coffee-bot/pages",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"exports": "./src/index.js",
+	"dependencies": {
+		"@coffee-bot/shared": "*",
+		"@coffee-bot/usechat": "*",
+		"@coffee-bot/button": "*"
+	}
+}
