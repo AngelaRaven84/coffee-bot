@@ -6,6 +6,8 @@ En mindre caféchatbot som jag byggt som en skolövning i kursen Utveckling av A
 
 ## Visningsdemo
 
+**[Prova visningsdemon](https://coffee-bot-two.vercel.app/)** – klicka runt bland meny, exempelkonversationer och beställningskort.
+
 Startsidan visar en interaktiv demo med **förskrivna exempel och en lokal exempelmeny**. Ingen aktiv AI används i det läget. Demon fungerar utan Ollama och externa API:er.
 
 - Visa exempelmenyn.
@@ -16,7 +18,7 @@ Startsidan visar en interaktiv demo med **förskrivna exempel och en lokal exemp
 
 Exempelsvaren och produktvalen är fasta. Summan beräknas i JavaScript. Demon visar gränssnitt och interaktioner; den bevisar inte hur en språkmodell svarar på fria frågor. Historik och ändringar sparas bara i minnet under besöket.
 
-**Publiceringsstatus:** Visningsdemon förbereds och verifieras lokalt. Publik demolänk läggs till efter publicering.
+**Publicering:** Visningsdemon finns på Vercel. Den använder förskrivna exempel, inte en aktiv AI-modell.
 
 ## Bilder
 
@@ -101,4 +103,4 @@ Projektet har en `vercel.json` för statisk publicering. Importera GitHub-repot 
 - Node.js: 24.x.
 - Inga miljövariabler, AI-nycklar eller Ollama-server behövs för visningsdemon.
 
-När publiceringen är klar läggs den riktiga Vercel-adressen in här. Den offentliga sidan är endast visningsdemon.
+Publicerad adress: https://coffee-bot-two.vercel.app/. Den offentliga sidan är endast visningsdemon.
